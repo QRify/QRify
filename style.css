@@ -248,3 +248,45 @@ form p {
     position: absolute;
     left: 0;
 }
+
+/* ============================================================================== */
+.thankyoubody {
+    height: 100svh;
+    background: linear-gradient(to right bottom, #e6eaec, #88ec6f);
+    display: grid;
+    place-items: center;
+}
+
+.submitbox {
+    padding: 1.5em;
+    width: 70vw;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: regm;
+    font-size: medium;
+}
+
+.submitbox img {
+    width: 3em;
+    margin-bottom: 1em;
+}
+
+.des {
+    font-size: x-small;
+}
+
+.submitbox a {
+    font-size: small;
+    margin-top: 1em;
+    width: 60%;
+    padding: 0.7em;
+    border-radius: 50px;
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
